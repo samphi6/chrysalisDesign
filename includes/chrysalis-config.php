@@ -10,6 +10,9 @@ switch (PAGE_TITLE) {
 
         $title = "Samuel Phillips";
         $pageID = "Samuel Phillips";
+        $quoteID = "I offer a proficient grasp of wire-frame iterations, making visual analyses,
+        implementing creative color/ image treatments, and conducting A/B testing to
+        strengthen information architecture from proto-site to live pages.";
 
         break;
 
@@ -17,6 +20,8 @@ switch (PAGE_TITLE) {
 
         $title = "Chrysalis Designs";
         $pageID = "Designs";
+        $quoteID = "Following accessibility practices maintained by ARIA guidelines for an accessible site, I am always seeking more ways to cater the web to all regardless of audio,
+        visual, motor, or cognitive abilities.";
 
         break;
 
@@ -24,6 +29,7 @@ switch (PAGE_TITLE) {
 
         $title = "Chrysalis Services";
         $pageID = "Services";
+        $quoteID = "Equipped with tenants of strong work ethics, we can steadily navigate the open water of developing the web while searching for the answers to create a broader, more accessible, and dynamic internet experience.";
 
         break;
 
@@ -31,6 +37,7 @@ switch (PAGE_TITLE) {
 
         $title = "Chrysalis Cases";
         $pageID = "Cases";
+        $quoteID = "";
 
         break;
 
@@ -38,6 +45,7 @@ switch (PAGE_TITLE) {
 
         $title = "Contact";
         $pageID = "Contact Samuel";
+        $quoteID = "Hi! How Are Ya?";
 
         break;
 
@@ -45,6 +53,7 @@ switch (PAGE_TITLE) {
 
         $title = PAGE_TITLE;
         $pageID = "Go Beyond";
+        $quoteID = "";
 }
 
 $nav1['stp.php'] = "Samuel Phillps";
