@@ -49,8 +49,6 @@
 
             <h1 class="pageID"><?= $pageID ?></h1>
 
-            <p>We navigate the open waters of developing the internet to create a broader, more accessible, and dynamic experience.
-                Let's lift your vision to the vast platforms of the web!
-            </p>
+            <p><?= $quoteID ?></p>
 
         </div>
