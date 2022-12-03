@@ -19,11 +19,17 @@
             <nav>
 
                 <ul>
+
+                    <?= makeLinks($nav1) ?>
+
+                    <!-- ORIGINAL HTML MENU ITEM SETUP
+
                     <li><a href="stp.php">Samuel Phillips</a></li>
                     <li><a href="designs.php">Design</a></li>
                     <li><a href="services.php">Services</a></li>
                     <li><a href="cases.php">Cases</a></li>
                     <li><a href="contactme.php">Contact</a></li>
+                -->
 
                 </ul>
 
