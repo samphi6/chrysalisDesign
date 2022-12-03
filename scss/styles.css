@@ -96,8 +96,6 @@ body {
 
 .wrapper .drawer {
   width: 600px;
-  display: -ms-grid;
-  display: grid;
   margin-bottom: 100px;
   background-image: url(../img/standoffDrawerRed.png);
   background-repeat: no-repeat;
@@ -106,16 +104,6 @@ body {
   border-radius: 0 10px 10px 0;
   -webkit-box-shadow: 15px 15px 30px rgba(0, 0, 0, 0.9);
           box-shadow: 15px 15px 30px rgba(0, 0, 0, 0.9);
-}
-
-.wrapper .drawer h2 {
-  -ms-grid-column-align: end;
-      justify-self: end;
-  margin: -48px 0 0 0;
-  font-size: 3.1em;
-  color: #5D7877;
-  font-weight: 100;
-  text-shadow: 8px 4px 10px black;
 }
 
 .wrapper .design-1 {
@@ -208,6 +196,10 @@ body {
   color: #222;
 }
 
+.wrapper header nav li .selected {
+  color: #E2E2E2;
+}
+
 .wrapper header nav li a {
   text-decoration: none;
   padding: 1em;
@@ -259,7 +251,7 @@ body {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   grid-column: span 2;
-  margin-top: 200px;
+  margin-top: 160px;
   gap: 50px;
 }
 
