@@ -9,12 +9,14 @@
 <div class="bio">
 
     <p>
-        I offer a proficient grasp of wire-frame iterations, making visual analyses,
-        implementing creative color/ image treatments, and conducting A/B testing to
-        strengthen information architecture from proto-site to live pages.
         Following accessibility practices maintained by ARIA guidelines for an accessible
         site, I am always seeking more ways to cater the web to all regardless of audio,
         visual, motor, or cognitive abilities.
+    </p>
+
+    <p>Accompanied by a keen force in delivering heuristic and comparative analysis data,
+        I’ve worked for three years beside small teams of graphic and web designers to go beyond
+        the client’s expectations.
     </p>
 
 </div>
@@ -28,9 +30,7 @@
 <div class="bio bio-p2">
 
     <p>
-        Accompanied by a keen force in delivering heuristic and comparative analysis data,
-        I’ve worked for three years beside small teams of graphic and web designers to go beyond
-        the client’s expectations. Diligently working with web developers has nurtured a strength
+        Diligently working with web developers has nurtured a strength
         in communication between back/ front-end development and UX/ UI design. Teamed with hired
         branding agents in the past to apply complete site re-brands to organic layout design has
         fostered an eye for attention to detail to effectively create site identity.
