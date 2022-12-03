@@ -12,6 +12,8 @@
 
 <body>
 
+    <div class="logo"></div>
+
     <main class="wrapper">
 
         <header>
