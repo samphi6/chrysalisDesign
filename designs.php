@@ -2,8 +2,6 @@
 
 <div class="drawer">
 
-    <h2>Designs</h2>
-
 </div>
 
 <div class="drawer design-1">
