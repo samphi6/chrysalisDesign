@@ -2,14 +2,12 @@
 
 var image = new Image();
 
-// IMAGE FOR TRNASITION
-
-image.src = "/chrysalisDesign/img/phase3.png";
-
 image.onload = function () {
 
-$(".element").css("background-image",
+$(".logo").css("background-image",
 
     "url('" + image.src + "')");
 
-}; 
+image.src = "/chrysalisDesign/img/phase3.png";
+
+};
