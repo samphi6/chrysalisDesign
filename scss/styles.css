@@ -17,8 +17,8 @@ body {
 
 .hidden {
   opacity: 0;
-  -webkit-transition: 1000ms;
-  transition: 1000ms;
+  -webkit-transition: 2000ms;
+  transition: 2000ms;
   -webkit-filter: blur(5px);
           filter: blur(5px);
   -webkit-transform: translateX(-50%);
@@ -241,8 +241,8 @@ body {
       -ms-flex-pack: center;
           justify-content: center;
   margin-bottom: 24px;
-  -webkit-animation: transitionIn 1000ms;
-          animation: transitionIn 1000ms;
+  -webkit-animation: transitionIn 2000ms;
+          animation: transitionIn 2000ms;
 }
 
 @-webkit-keyframes transitionIn {
@@ -404,6 +404,8 @@ body {
 .wrapper .contact-img img {
   width: 100%;
   border-radius: 10% 60% 10% 60%;
+  -webkit-box-shadow: 4px 3px 9px 1px rgba(0, 0, 0, 0.8);
+          box-shadow: 4px 3px 9px 1px rgba(0, 0, 0, 0.8);
 }
 
 .wrapper footer {
