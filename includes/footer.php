@@ -22,7 +22,7 @@
 
 </main>
 
-<script type="text/javascript" defer src="/chrysalisDesign/js/main.js"></script>
+<script type="text/javascript" defer src="/chrysalisDesign/js/app.js"></script>
 
 </body>
 
