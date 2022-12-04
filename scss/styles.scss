@@ -204,7 +204,7 @@ body {
             justify-content: center;
             margin-bottom: 24px;
 
-            animation: transitionIn 1000ms;
+            animation: transitionIn 2000ms;
 
             @keyframes transitionIn {
                 from {
@@ -335,7 +335,7 @@ body {
         img {
             width: 100%;
             border-radius: 10% 60% 10% 60%;
-            box-shadow: 4px 3px 9px 1px rgb(0 0 0 / 80%);
+            box-shadow: 4px 3px 9px 1px rgba(0, 0, 0, 0.8);
         }
     }
 
