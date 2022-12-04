@@ -1,6 +1,6 @@
 <?php include "includes/header.php"; ?>
 
-<div class="drawer">
+<div class="drawer hidden">
 
 </div>
 
