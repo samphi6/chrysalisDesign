@@ -2,7 +2,7 @@
 
 <div class="bio-pic">
 
-    <img src="img/stpProfilePicSquare.png" alt="Samuel T. Phillips/ Designer">
+    <img class="hidden" src="img/stpProfilePicSquare.png" alt="Samuel T. Phillips/ Designer">
 
 </div>
 
