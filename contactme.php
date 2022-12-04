@@ -26,9 +26,9 @@
 
 </div>
 
-<div class="contact-img">
+<div class="contact-img hidden">
 
-    <img class="hidden" src="img/workinHardCD.jpg" alt="Samuel Designing a Website">
+    <img src="img/workinHardCD.jpg" alt="Samuel Designing a Website">
 
 </div>
 
