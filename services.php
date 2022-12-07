@@ -24,9 +24,28 @@
 
         </ul>
 
-        <button>learn more</button>
+        <button data-modal-target="#modal">learn more</button>
 
     </div>
+
+    <div class="modal" id="modal">
+
+        <div class="modal-header">
+
+            <h1 class="modal-title">WordPress Design & Development</h1>
+
+            <button data-close-btn class="close-btn">&times;</button>
+
+        </div>
+
+        <div class="modal-body">
+
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi tenetur repellendus ex accusantium nemo sequi vero? Ad, quos voluptate. Veniam magni molestiae mollitia expedita rerum quisquam placeat odio, doloribus minima provident voluptatem error, molestias ex deserunt quaerat unde! Optio neque consequatur quam quod perspiciatis hic impedit est explicabo molestiae assumenda, tenetur veritatis id, praesentium nemo maxime eius saepe eos ratione, perferendis consectetur voluptatem nobis? Harum, necessitatibus? Rerum dolore qui labore, deserunt pariatur quam itaque dolores nulla adipisci accusamus ipsam dolor?</p>
+
+        </div>
+
+    </div>
+
 
     <div class="serviceCard service-2">
 
@@ -50,7 +69,7 @@
 
         </ul>
 
-        <button>learn more</button>
+        <button data-modal-target="#modal">learn more</button>
 
     </div>
 
@@ -76,7 +95,7 @@
 
         </ul>
 
-        <button>learn more</button>
+        <button data-modal-target="#modal">learn more</button>
 
     </div>
 
@@ -104,7 +123,7 @@
 
         </ul>
 
-        <button>learn more</button>
+        <button data-modal-target="#modal">learn more</button>
 
     </div>
 
@@ -134,7 +153,7 @@
 
         </ul>
 
-        <button>learn more</button>
+        <button data-modal-target="#modal">learn more</button>
 
     </div>
 
