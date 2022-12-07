@@ -237,7 +237,7 @@ body {
         }
     }
 
-// SERVICE PAGE STYLES
+    // SERVICE PAGE STYLES
 
     .services {
         color: #E2E2E2;
@@ -283,6 +283,116 @@ body {
                         -5px -6px 10px rgba(226, 226, 226, 0.1); 
         }
     }
+
+    .modal {
+        color: #e2e2e2;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%) scale(0);
+        transition: 200ms ease-in-out;
+        border-radius: 10px;
+        z-index: 1;
+        background-color: #222;
+        width: 800px;
+        max-width: 70%;
+        padding: 20px;
+        filter: drop-shadow(10px 10px 30px rgba(0, 0, 0, 0.9)); 
+
+        &.active {
+            transform: translate(-50%, -50%) scale(1);
+        }
+
+        .modal-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            .modal-title {
+                font-size: 2em;
+                font-weight: bold;
+            }
+        
+            .close-btn {
+                cursor: pointer;
+                width: 50px;
+                align-self: flex-start;
+                margin: 0;
+                font-size: 1.25em;
+                font-weight: bold;
+            }
+
+        }
+
+        .modal-body {
+        
+            p { 
+                line-height: 1.5em;
+            }
+        }
+
+    }
+
+    #overlay {
+        position: fixed;
+        opacity: 0;
+        transition: 200ms ease-in-out;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(0, 0, 0, 0.5);
+        pointer-events: none;
+
+        &.active {
+            opacity: 1;
+            pointer-events: all;
+        }
+    }
+
+    // BEGINNING OF CASE STYLES  // 
+
+    .case-container {
+        grid-row-start: 3;
+        grid-row-end: 5;
+        display: flex;
+        width: 1000px;
+        gap: 50px;
+
+        .case {
+            width: 300px;
+            background-color: #5D7877;
+            border-radius: 10px;
+
+            img {
+                width: 300px;
+                height: 300px;
+                
+            }
+
+            .case-descr {
+                padding: 0 20px 0 20px;
+            }
+
+            button {
+            font-family: Patua One;
+            font-size: 1em;
+            margin: 50px 0 30px 0;
+            padding: 10px;
+            align-self: center;
+            border-radius: 5px;
+            color: #E2E2E2;
+            width: 250px;
+            background-color: #222;
+            border: none;
+            cursor: pointer;
+            box-shadow: 4px 3px 9px 1px rgba(0, 0, 0, 0.8), 
+                -5px -6px 10px rgba(226, 226, 226, 0.1); 
+            }
+        }
+    } 
+
+    // END OF CASE STYLES  //
 
     // CONTACT FORM STYLES //
     
@@ -338,6 +448,8 @@ body {
             box-shadow: 4px 3px 9px 1px rgba(0, 0, 0, 0.8);
         }
     }
+
+    // END OF CONTACT FORM STYLES //
 
     footer {
         display: flex;

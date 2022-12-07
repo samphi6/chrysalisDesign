@@ -1,5 +1,6 @@
 // SCRIPTS FOR CHRYSALIS D&D //
- //
+
+// SCRIPTS FOR ONSCROLL ANIMATION // 
 
 const observer = new IntersectionObserver((entries) => {
 
@@ -15,3 +16,5 @@ entries.forEach((entry) => {
 
 const hiddenElements = document.querySelectorAll('.hidden');
 hiddenElements.forEach((el) => observer.observe(el));
+
+
