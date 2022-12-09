@@ -37,7 +37,7 @@ switch (PAGE_TITLE) {
 
         $title = "Chrysalis Cases";
         $pageID = "Cases";
-        $quoteID = "";
+        $quoteID = "Anyone can get the attention of the user— I want to harvest 'the why' with UX/ UI design methodologies to figure 'the how' in keeping user interests piqued.";
 
         break;
 
