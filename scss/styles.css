@@ -5,7 +5,7 @@ body {
   margin: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  font-family: 'Patua One', cursive;
+  font-family: 'Patua One', 'sans-serif' , 'cursive';
   background-color: #222;
   background-image: url("/chrysalisDesign/img/phase3.png");
   background-size: contain;
@@ -40,8 +40,6 @@ body {
   display: grid;
   -ms-grid-columns: 50% 50%;
       grid-template-columns: 50% 50%;
-  -ms-grid-rows: auto 22% 20% 20%;
-      grid-template-rows: auto 22% 20% 20%;
 }
 
 .wrapper .quote {
@@ -90,6 +88,7 @@ body {
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
+  line-height: 1.5em;
 }
 
 .wrapper .dev-pic {
@@ -110,11 +109,13 @@ body {
   -ms-grid-row: 4;
       grid-row-start: 4;
   grid-column: span 2;
-  margin: 0 50px 0 50px;
+  margin: 130px 50px 0 50px;
+  line-height: 1.5em;
 }
 
 .wrapper .drawer {
   width: 600px;
+  height: 180px;
   margin-bottom: 100px;
   background-image: url(../img/standoffDrawerRed.png);
   background-repeat: no-repeat;
@@ -139,7 +140,7 @@ body {
 }
 
 .wrapper .more-des {
-  margin: 100px 0 50px 0;
+  margin: 150px 0 50px 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -328,10 +329,15 @@ body {
   border-radius: 10px;
 }
 
+.wrapper .services .serviceCard ul {
+  margin: 0 0 50px 0;
+}
+
 .wrapper .services button {
   font-family: Patua One;
   font-size: 1em;
-  margin: 50px 0 30px 0;
+  margin-top: auto;
+  margin-bottom: 30px;
   padding: 10px;
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
@@ -420,50 +426,77 @@ body {
 }
 
 .wrapper .case-container {
-  -ms-grid-row: 3;
-      grid-row-start: 3;
-  grid-row-end: 5;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   width: 1000px;
+  margin: 130px 0 0 0;
+  justify-self: center;
+  grid-column: span 2;
+  grid-row: span 2;
   gap: 50px;
 }
 
-.wrapper .case-container .case {
+.wrapper .case-container .case-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   width: 300px;
-  background-color: #5D7877;
   border-radius: 10px;
+  background-color: #5D7877;
 }
 
-.wrapper .case-container .case img {
-  width: 300px;
+.wrapper .case-container .card-image-1 {
+  background-image: url(../img/standoffDrawer.png);
+  width: 100%;
   height: 300px;
+  -webkit-box-shadow: inset 5px 5px 10px #000000;
+          box-shadow: inset 5px 5px 10px #000000;
+  border-radius: 10px 10px 0 100px;
+}
+
+.wrapper .case-container .card-image-2 {
+  background-image: url(../img/tcfw.png);
+  width: 100%;
+  height: 300px;
+  -webkit-box-shadow: inset 5px 5px 10px #000000;
+          box-shadow: inset 5px 5px 10px #000000;
   border-radius: 10px 10px 0 0;
-  -webkit-box-shadow: 4px 3px 9px 1px rgba(0, 0, 0, 0.5);
-          box-shadow: 4px 3px 9px 1px rgba(0, 0, 0, 0.5);
 }
 
-.wrapper .case-container .case .case-descr {
-  padding: 0 20px 0 20px;
+.wrapper .case-container .card-image-3 {
+  background-image: url(../img/korochka_logo.png);
+  width: 100%;
+  height: 300px;
+  -webkit-box-shadow: inset -5px -5px 10px #000000;
+          box-shadow: inset -5px -5px 10px #000000;
+  border-radius: 10px 10px 100px 0;
 }
 
-.wrapper .case-container .case button {
-  font-family: Patua One;
-  font-size: 1em;
-  margin: 50px 0 30px 0;
+.wrapper .case-container .case-content {
+  padding: 20px;
+}
+
+.wrapper .case-container button {
+  font-family: 'Patua One', cursive;
+  border-radius: 5px;
+  color: #E2E2E2;
+  width: 250px;
+  margin-top: auto;
+  margin-bottom: 30px;
   padding: 10px;
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
-  border-radius: 5px;
-  color: #E2E2E2;
-  width: 250px;
   background-color: #222;
   border: none;
   cursor: pointer;
-  -webkit-box-shadow: 4px 3px 9px 1px rgba(0, 0, 0, 0.8), -5px -6px 10px rgba(226, 226, 226, 0.1);
-          box-shadow: 4px 3px 9px 1px rgba(0, 0, 0, 0.8), -5px -6px 10px rgba(226, 226, 226, 0.1);
+  -webkit-box-shadow: 4px 3px 9px 1px rgba(0, 0, 0, 0.8);
+          box-shadow: 4px 3px 9px 1px rgba(0, 0, 0, 0.8);
 }
 
 .wrapper .form-container {
@@ -523,7 +556,7 @@ body {
 
 .wrapper .contact-img img {
   width: 100%;
-  border-radius: 10% 60% 10% 60%;
+  border-radius: 40% 20% 70% 20%;
   -webkit-box-shadow: 4px 3px 9px 1px rgba(0, 0, 0, 0.8);
           box-shadow: 4px 3px 9px 1px rgba(0, 0, 0, 0.8);
 }
