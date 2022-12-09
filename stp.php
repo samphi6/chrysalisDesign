@@ -15,8 +15,8 @@
     </p>
 
     <p>Accompanied by a keen force in delivering heuristic and comparative analysis data,
-        I’ve worked for three years beside small teams of graphic and web designers to go beyond
-        the client’s expectations.
+        I've worked for three years beside small teams of graphic and web designers to go beyond
+        the client's expectations.
     </p>
 
 </div>
