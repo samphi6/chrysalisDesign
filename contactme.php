@@ -28,7 +28,7 @@
 
 <div class="contact-img">
 
-    <img class="hidden" src="img/workinHardCD.jpg" alt="Samuel Designing a Website">
+    <img class="hidden" src="img/crowdFundingProfile.jpg" alt="Samuel Designing a Website">
 
 </div>
 
