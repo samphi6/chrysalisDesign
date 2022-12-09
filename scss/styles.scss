@@ -406,6 +406,18 @@ body {
 
         .case-content {
             padding: 20px;
+
+            .read-more-text {
+                display: none;
+            }
+
+            .read-more-text--show {
+                display: inline-block;
+            }
+
+            .read-more-btn {
+                color: #E2E2E2;
+            }
         }
 
         button {

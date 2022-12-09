@@ -39,13 +39,13 @@ function closeModal(modal) {
     overlay.classList.remove('active')
 }
 
-// SCRIPS FOR READ MORE DROPDWON FOR CASE CARDS //
+// SCRIPT FOR 'READ MORE' DROPDWON FOR CASE CARDS //
 
-const parentContainer = document.querySelector('.case-content');
+const parentContainer = document.querySelector('.case-container');
 
 parentContainer.addEventListener('click', event => {
 
-    const current = event.targt;
+    const current = event.target;
 
     const isReadMoreBtn = current.className.includes('read-more-btn');
 

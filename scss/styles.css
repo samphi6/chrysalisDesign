@@ -481,6 +481,18 @@ body {
   padding: 20px;
 }
 
+.wrapper .case-container .case-content .read-more-text {
+  display: none;
+}
+
+.wrapper .case-container .case-content .read-more-text--show {
+  display: inline-block;
+}
+
+.wrapper .case-container .case-content .read-more-btn {
+  color: #E2E2E2;
+}
+
 .wrapper .case-container button {
   font-family: 'Patua One', cursive;
   border-radius: 5px;
