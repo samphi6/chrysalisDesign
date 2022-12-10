@@ -40,12 +40,13 @@
 
         <div class="modal-body">
 
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi tenetur repellendus ex accusantium nemo sequi vero? Ad, quos voluptate. Veniam magni molestiae mollitia expedita rerum quisquam placeat odio, doloribus minima provident voluptatem error, molestias ex deserunt quaerat unde! Optio neque consequatur quam quod perspiciatis hic impedit est explicabo molestiae assumenda, tenetur veritatis id, praesentium nemo maxime eius saepe eos ratione, perferendis consectetur voluptatem nobis? Harum, necessitatibus? Rerum dolore qui labore, deserunt pariatur quam itaque dolores nulla adipisci accusamus ipsam dolor?</p>
+            <p>
+                Chrysalis design and development takes careful steps to discover the needs of your site ensuring optimal functionality and an aesthetic that will consistently serve a positive user experience. Finding your audience is a priority! Building a space that keeps visitors clicking through your content is our goal. Lifting your vision with the available templates on WordPress will be the beginning of the journey to raising your platform on the web to the next level.
+            </p>
 
         </div>
 
     </div>
-
 
     <div class="serviceCard service-2">
 
@@ -69,7 +70,28 @@
 
         </ul>
 
-        <button data-modal-target="#modal">learn more</button>
+        <button data-modal-target="#modal-2">learn more</button>
+
+    </div>
+
+    <div class="modal" id="modal-2">
+
+        <div class="modal-header">
+
+            <h1 class="modal-title">WordPress Design & Development</h1>
+
+            <button data-close-btn class="close-btn">&times;</button>
+
+        </div>
+
+        <div class="modal-body">
+
+            <p>
+                We guarantee, by the end of the design process that our clients are empowered with the magic of Dreamhost and the WordPress content management systems various advances in tech will have you updating up to three pages hassle free leaving you with the benefit of a budget unscathed by future third-party site management.
+                To keep this promise, we provide two editing sessions to guide our clients with the insight and tools needed for the greatest success. Whether you are an artist or a B2C company, you’re gonna love the results.
+            </p>
+
+        </div>
 
     </div>
 
@@ -95,7 +117,27 @@
 
         </ul>
 
-        <button data-modal-target="#modal">learn more</button>
+        <button data-modal-target="#modal-3">learn more</button>
+
+    </div>
+
+    <div class="modal" id="modal-3">
+
+        <div class="modal-header">
+
+            <h1 class="modal-title">WordPress Design & Development</h1>
+
+            <button data-close-btn class="close-btn">&times;</button>
+
+        </div>
+
+        <div class="modal-body">
+
+            <p>
+                Chrysalis design and development takes careful steps to discover the needs of your site ensuring optimal functionality and an aesthetic that will consistently serve a positive user experience. Finding your audience is a priority! Building a space that keeps visitors clicking through your content is our goal. Lifting your vision with the available templates on WordPress will be the beginning of the journey to raising your platform on the web to the next level.
+            </p>
+
+        </div>
 
     </div>
 
@@ -123,7 +165,28 @@
 
         </ul>
 
-        <button data-modal-target="#modal">learn more</button>
+        <button data-modal-target="#modal-4">learn more</button>
+
+    </div>
+
+    <div class="modal" id="modal-4">
+
+        <div class="modal-header">
+
+            <h1 class="modal-title">WordPress Design & Development</h1>
+
+            <button data-close-btn class="close-btn">&times;</button>
+
+        </div>
+
+        <div class="modal-body">
+
+            <p>
+                We guarantee, by the end of the design process that our clients are empowered with the magic of Dreamhost and the WordPress content management systems various advances in tech will have you updating up to three pages hassle free leaving you with the benefit of a budget unscathed by future third-party site management.
+                To keep this promise, we provide two editing sessions to guide our clients with the insight and tools needed for the greatest success. Whether you are an artist or a B2C company, you’re gonna love the results.
+            </p>
+
+        </div>
 
     </div>
 
@@ -153,7 +216,27 @@
 
         </ul>
 
-        <button data-modal-target="#modal">learn more</button>
+        <button data-modal-target="#modal-5">learn more</button>
+
+    </div>
+
+    <div class="modal" id="modal-5">
+
+        <div class="modal-header">
+
+            <h1 class="modal-title">WordPress Design & Development</h1>
+
+            <button data-close-btn class="close-btn">&times;</button>
+
+        </div>
+
+        <div class="modal-body">
+
+            <p>
+                Chrysalis design and development takes careful steps to discover the needs of your site ensuring optimal functionality and an aesthetic that will consistently serve a positive user experience. Finding your audience is a priority! Building a space that keeps visitors clicking through your content is our goal. Lifting your vision with the available templates on WordPress will be the beginning of the journey to raising your platform on the web to the next level.
+            </p>
+
+        </div>
 
     </div>
 
