@@ -1,11 +1,16 @@
 <?php include "includes/header.php"; ?>
 
-<div class="drawer hidden">
+<a href="standoff.php">
+
+    <div class="drawer hidden"></div>
+
+</a>
 
 </div>
 
 <div class="drawer design-1">
 
 </div>
+
 
 <?php include "includes/footer.php"; ?>
