@@ -124,6 +124,7 @@ body {
   border-radius: 0 10px 10px 0;
   -webkit-box-shadow: 15px 15px 30px rgba(0, 0, 0, 0.9);
           box-shadow: 15px 15px 30px rgba(0, 0, 0, 0.9);
+  cursor: pointer;
 }
 
 .wrapper .design-1 {
@@ -185,6 +186,42 @@ body {
   background-image: url(../img/kaiMockupFinal.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.wrapper .standoff-right {
+  display: -ms-grid;
+  display: grid;
+  width: 100%;
+  margin-top: 100px;
+  -ms-grid-column: 2;
+      grid-column-start: 2;
+  grid-column-end: 3;
+}
+
+.wrapper .standoff-right img {
+  -ms-grid-column-align: center;
+      justify-self: center;
+  width: 50%;
+  border-radius: 10px;
+  -webkit-box-shadow: 4px 3px 9px 1px rgba(0, 0, 0, 0.8);
+          box-shadow: 4px 3px 9px 1px rgba(0, 0, 0, 0.8);
+}
+
+.wrapper .standoff-left {
+  width: 100%;
+  margin-top: 100px;
+  -ms-grid-column: 1;
+      grid-column-start: 1;
+  grid-column-end: 2;
+}
+
+.wrapper .standoff-left img {
+  -ms-grid-column-align: center;
+      justify-self: center;
+  width: 50%;
+  border-radius: 10px;
+  -webkit-box-shadow: 4px 3px 9px 1px rgba(0, 0, 0, 0.8);
+          box-shadow: 4px 3px 9px 1px rgba(0, 0, 0, 0.8);
 }
 
 .wrapper header {
@@ -491,6 +528,7 @@ body {
 
 .wrapper .case-container .case-content .read-more-btn {
   color: #E2E2E2;
+  cursor: pointer;
 }
 
 .wrapper .case-container button {
@@ -513,12 +551,11 @@ body {
 
 .wrapper .form-container {
   width: 80%;
+  margin-left: 40px;
   -ms-grid-column: 2;
       grid-column-start: 2;
   -ms-grid-row: 3;
       grid-row-start: 3;
-  -ms-grid-column-align: center;
-      justify-self: center;
 }
 
 .wrapper .form-container form {
