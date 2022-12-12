@@ -109,7 +109,7 @@ body {
         width: 600px;
         height: 180px;
         margin-bottom: 100px;
-        background-image: url(../img/standoffDrawerRed.png);
+        background-image: url(../img/standoffDrawer.png);
         background-repeat: no-repeat;
         background-size: 100%;
         background-color: #222;
@@ -546,4 +546,17 @@ body {
         grid-column-start: 1;
         grid-column-end: 3;
     }
+}
+
+
+// MEDIA QUERIES FOR RESPONSIVE DESIGN //
+
+
+@media  (max-width: 375px) {
+
+.wrapper {
+    grid-template-columns: 100%;
+
+}
+    
 }
