@@ -12,7 +12,7 @@ entries.forEach((entry) => {
 });
 });
 
-const hiddenElements = document.querySelectorAll('.hidden');
+const hiddenElements = document.querySelectorAll('.hidden, .hidden-left, .hidden-right');
 hiddenElements.forEach((el) => observer.observe(el));
 
 //SCRIPTS FOR MODAL ACTIVATION //

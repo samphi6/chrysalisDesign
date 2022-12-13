@@ -2,13 +2,13 @@
 
 <a href="standoff.php">
 
-    <div class="drawer hidden"></div>
+    <div class="drawer hidden-left"></div>
 
 </a>
 
 </div>
 
-<div class="drawer design-1">
+<div class="drawer design-1 hidden-right">
 
 </div>
 

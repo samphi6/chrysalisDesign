@@ -21,7 +21,7 @@
 
 </div>
 
-<div class="dev-pic">
+<div class="dev-pic hidden-right">
 
     <img src="img/workinHardCD.jpg" alt="Designer Samuel Phillips coding and designing site layout">
 
