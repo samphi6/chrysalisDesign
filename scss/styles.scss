@@ -34,7 +34,7 @@ body {
 
 .hidden-right {
     opacity: 0;
-    transition: 2000ms;
+    transition: 1000ms;
     filter: blur(5px);
     transform: translateX(50%);
 }
@@ -48,6 +48,9 @@ body {
 // ON SCROLL ANIMATION STYES END //
 
 .wrapper {
+    h1 {
+        color: #E2E2E2;
+        }
     width: 1263px;
     margin: 0 auto;
     display: grid;
@@ -142,7 +145,7 @@ body {
     } 
 
     .more-des {
-        margin: 150px 0 50px 0;
+        margin: 250px 0 50px 0;
         display: flex;
         justify-content: space-evenly;
         grid-row-start: 6;
@@ -169,13 +172,13 @@ body {
         }
 
         .box-2 { 
-            background-image: url(../img/jesse-schoff-i2DefZ6PCN0-unsplash.jpg);
+            background-image: url(../img/standoffCasesMobile.png);
             background-repeat: no-repeat;
             background-size: cover;
         }
 
         .box-3 { 
-            background-image: url(../img/kaiMockupFinal.jpg);
+            background-image: url(../img/tcfwIcon.svg);
             background-repeat: no-repeat;
             background-size: cover;
         }
@@ -186,34 +189,33 @@ body {
 
     // *** STANDOFF DESIGN PAGE STYLES START *** //
 
-    .standoff-right {
-        display: grid;
+    .standoff-left, .standoff-right {
+        display: flex;
+        align-items: center;
         width: 100%;
         margin-top: 100px;
-        grid-column-start: 2;
-        grid-column-end: 3;
+        grid-column: span 2;
 
         img {
-            justify-self: center;
-            width: 50%;
+            width:25%;
             border-radius: 10px;
-            box-shadow: 4px 3px 9px 1px rgba(0, 0, 0, 0.8)
+            box-shadow: 4px 3px 9px 1px rgba(0, 0, 0, 0.8);
+            margin: 0 50px 0 50px;
+        }
+
+        p {
+            font-size: 2em;
+            color: #e2e2e2;
+            padding: 20px;
+            margin: 0 50px 0 50px;
         }
     }
 
     .standoff-left {
-        width: 100%;
-        margin-top: 100px;
-        grid-column-start: 1;
-        grid-column-end: 2;
 
-        img {
-            justify-self: center;
-            width: 50%;
-            border-radius: 10px;
-            box-shadow: 4px 3px 9px 1px rgba(0, 0, 0, 0.8)
+        p{
+            text-align: right;
         }
-
     }
 
     // *** STANDOFF DESIGN PAGE STYLES END *** //    
@@ -229,6 +231,7 @@ body {
 
         nav {
             justify-self: self-end;
+            margin: 20px;
     
             ul { 
                 display: flex;
@@ -457,6 +460,17 @@ body {
             border-radius: 10px 10px 100px 0;
         }
 
+        // STANDOFF CASE PAGE STYLES  //
+
+        .design-img {
+            background-image: url(../img/standoffCasesMobile.png);
+            background-size: contain;
+            width: 100%;
+            height: 300px;
+            box-shadow: inset -5px -5px 10px #000000;
+            border-radius: 10px 10px 100px 0;
+        }
+
         .case-content {
             padding: 20px;
 
@@ -475,21 +489,24 @@ body {
         }
 
         button {
-                font-family: 'Patua One', cursive;
-                border-radius: 5px;
-                color: #E2E2E2;
-                width: 250px;
-                margin-top: auto;
-                margin-bottom: 30px;
-                padding: 10px;
-                align-self: center;
-                background-color: #222;
-                border: none;
-                cursor: pointer;
-                box-shadow: 4px 3px 9px 1px rgba(0, 0, 0, 0.8)
-            }
-
+            font-family: 'Patua One', cursive;
+            border-radius: 5px;
+            color: #E2E2E2;
+            width: 250px;
+            margin-top: auto;
+            margin-bottom: 30px;
+            padding: 10px;
+            align-self: center;
+            background-color: #222;
+            border: none;
+            cursor: pointer;
+            box-shadow: 4px 3px 9px 1px rgba(0, 0, 0, 0.8)
+        }
     } 
+
+    // KOROCHKA CASE PAGE STYLES  //
+
+    // TCFW CASE PAGE STYLES  //
     
     // END OF CASE STYLES  //
 
