@@ -49,6 +49,38 @@ switch (PAGE_TITLE) {
 
         break;
 
+    case 'korochka_case.php':
+
+        $title = "Cases";
+        $pageID = "a Case for Korochka Tavern";
+        $quoteID = "Korochka Tavern Case Study";
+
+        break;
+
+    case 'standoff_case.php':
+
+        $title = "Cases";
+        $pageID = "a Case for Standoff Book Release";
+        $quoteID = "Standoff Case Study";
+
+        break;
+
+    case 'tcfw_case.php':
+
+        $title = "Cases";
+        $pageID = "a Case for Transforming Cities from Within";
+        $quoteID = "Transforming Cities from Within Case Study";
+
+        break;
+
+    case 'standoff.php':
+
+        $title = "Standoff Design";
+        $pageID = "Standoff Book Release Designs";
+        $quoteID = "Let me tell you about the first gig working for a Human Rights lawyer from Vancouver, BC who was in need of a site to launch his latest book, Standoff";
+
+        break;
+
     default:
 
         $title = PAGE_TITLE;
