@@ -20,7 +20,7 @@
 
         </div>
 
-        <button>learn more</button>
+        <button onclick="document.location='standoff_case.php'">learn more</button>
 
     </div>
 
@@ -43,7 +43,7 @@
 
         </div>
 
-        <button>learn more</button>
+        <button onclick="document.location='tcfw_case.php'">learn more</button>
 
     </div>
 
@@ -66,7 +66,7 @@
 
         </div>
 
-        <button>learn more</button>
+        <button onclick="document.location='korochka_case.php'">learn more</button>
 
     </div>
 
