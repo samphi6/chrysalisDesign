@@ -2,6 +2,8 @@
 
     <div class="box-1">
 
+        <h2 class="hidden-left">more designs...</h2>
+
     </div>
 
     <div class="box-2">
