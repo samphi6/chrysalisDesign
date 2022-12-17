@@ -6,7 +6,7 @@ define('PAGE_TITLE', basename($_SERVER['PHP_SELF']));
 
 switch (PAGE_TITLE) {
 
-    case 'stp.php':
+    case 'index.php':
 
         $title = "Samuel Phillips";
         $pageID = "Samuel Phillips";
@@ -88,7 +88,7 @@ switch (PAGE_TITLE) {
         $quoteID = "";
 }
 
-$nav1['stp.php'] = "Samuel Phillps";
+$nav1['index.php'] = "Samuel Phillps";
 $nav1['designs.php'] = "Design";
 $nav1['services.php'] = "Services";
 $nav1['cases.php'] = "Cases";
