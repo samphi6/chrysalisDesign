@@ -1,5 +1,11 @@
 <?php include "includes/header.php"; ?>
 
+<div class="dev-logo hidden-left">
+
+    <img src="img/cc_logoWhiteText.png" alt="Chrysalis Design and Development logo">
+
+</div>
+
 <div class="services">
 
     <div class="serviceCard service-1">
