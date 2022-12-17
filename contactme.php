@@ -24,12 +24,26 @@
 
     </form>
 
-</div>
+    <div class="contact-img">
 
-<div class="contact-img">
+        <img class="hidden-left" src="img/crowdFundingProfile.jpg" alt="Samuel Designing a Website">
 
-    <img class="hidden-left" src="img/crowdFundingProfile.jpg" alt="Samuel Designing a Website">
+        <div class="logo hidden"><img src="img/cc_logoWhiteText.png" alt="Chrysalis Design and Development logo">
 
+            <div class="contacts">
+
+                <button href="https://www.linkedin.com/in/samueltphillipsbok/">Hey! i'm On Linked<i class="fa-brands fa-linkedin-in"></i></button>
+
+                <a href="mailto:codedchrysalis@gmail.com"><i class="fa-sharp fa-solid fa-envelope"></i>codedchrysalis@gmail.com</a>
+
+                <a href="samuelphillipsbok.com"><i class="fa-sharp fa-solid fa-bookmark"></i>samueltphillipsbok.com</a>
+
+
+            </div>
+
+        </div>
+
+    </div>
 </div>
 
 <?php include "includes/footer.php"; ?>
