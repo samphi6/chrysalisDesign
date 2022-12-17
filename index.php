@@ -1,78 +1,51 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="scss/styles.css?<?php echo time(); ?>" />
-    <link rel="stylesheet" type="text/css" href="scss/cases.css?<?php echo time(); ?>" />
-    <link rel="stylesheet" type="text/css" href="scss/contactme.css?<?php echo time(); ?>" />
-    <link rel="stylesheet" type="text/css" href="scss/services.css?<?php echo time(); ?>" />
-    <link rel="stylesheet" type="text/css" href="scss/stp.css?<?php echo time(); ?>" />
-    <title>Chrysalis Design & Development</title>
-</head>
-<body>
+<?php include "includes/header.php"; ?>
 
-<main class="wrapper">
+<div class="bio-pic">
 
-<header>
+    <img class="hidden" src="img/stpProfilePicSquare.png" alt="Samuel T. Phillips/ Designer">
 
-    <nav>
+</div>
 
-        <ul>
-            <li><a href="stp.php">Samuel Phillips</a></li>
-            <li><a href="designs.php">Design</a></li>
-            <li><a href="services.php">Services</a></li>
-            <li><a href="cases.php">Cases</a></li>
-            <li><a href="contactme.php">Contact</a></li>
+<div class="bio">
 
-        </ul>
+    <p>
+        Following accessibility practices maintained by ARIA guidelines for an accessible
+        site, I am always seeking more ways to cater the web to all regardless of audio,
+        visual, motor, or cognitive abilities.
+    </p>
 
-    </nav>
-
-    <div class="home-h1">
-
-        <h1 class="headTitle">Chrysalis</h1>
-        <h1 class="headTitle0">Design</h1>
-
-    </div>
-
-
-</header>
-
-<div class="quote">
-
-    <h1 class="pageID">Go Beyond</h1>
-
-    <p>We navigate the open waters of developing the internet to create a broader, more accessible, and dynamic experience.
-    Let's lift your vision to the vast platforms of the web!
+    <p>Accompanied by a keen force in delivering heuristic and comparative analysis data,
+        I've worked for three years beside small teams of graphic and web designers to go beyond
+        the client's expectations.
     </p>
 
 </div>
 
-<div class="more-des">
+<div class="dev-pic hidden-right">
 
-    <div class="box-1">
-
-    </div>
-
-    <div class="box-2">
-
-    </div>
-
-    <div class="box-3">
-
-    </div>
+    <img src="img/workinHardCD.jpg" alt="Designer Samuel Phillips coding and designing site layout">
 
 </div>
 
-<footer>
-    <p><small>&copy; 2021 - <?=date('Y')?> by <a href="contactme.php" target="_blank">
-    Samuel Phillips at Chrysalis Designs and Development</a>, all rights reserved
-    </small></p>
-</footer>
+<div class="bio bio-p2">
 
-</main>
+    <p>
+        Diligently working with web developers has nurtured a strength
+        in communication between back/ front-end development and UX/ UI design. Teamed with hired
+        branding agents in the past to apply complete site re-brands to organic layout design has
+        fostered an eye for attention to detail to effectively create site identity.
+    </p>
 
-</body>
-</html>
+    <p>
+        Equipped with these acquired tenants of strong work ethics, we can steadily navigate
+        the open water of developing the web while searching for the answers to create a broader,
+        more accessible, and dynamic internet experience.
+    </p>
+
+    <p>
+        Let’s feel good at the end of the day together!
+    </p>
+
+</div>
+
+<?php include "includes/footer.php"; ?>
